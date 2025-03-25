@@ -3,9 +3,9 @@ import HeroImg from "../assets/gym.jpg";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="">
       <div className="relative text-center text-white ">
-        <img className="w-full h-150" src={HeroImg}></img>
+        <img className="w-full md:w-full sm:w-auto  h-150" src={HeroImg}></img>
         <div className=" w-full absolute top-0 left-0 text-center mt-10">
           <h2 className="text-4xl font-bold text-center">
             Transform Your Body, Transform Your Life!
